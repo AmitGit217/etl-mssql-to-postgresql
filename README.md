@@ -13,11 +13,14 @@ You will need to configure your target database in the .env file as the followin
 You will have three tables in the old database with some records, and a Prisma schemas in the `prisma/prisma.schema` file
 to understand the relationships between tables.
 
+If you better with SQL you can read the migration file located at `prisma/migrations/20230125083732_test/migration.sql`
+
 In the old database (MSSQL) the relationships aren't good and they need massive transformation, how you that this is on you.
 
 Rules:
 
 1.Do not change anything from the prisma schema. This is you structure you need to fit in.
+
 2.You can use any tool you need, we are not going to block you from solving the problem for specific technologies.
 
 **Please make sure your solution is scalable as much as you can**
