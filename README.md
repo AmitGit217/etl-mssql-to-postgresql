@@ -19,7 +19,7 @@ In the old database (MSSQL) the relationships aren't good and they need massive 
 
 Rules:
 
-1.Do not change anything from the prisma schema. This is you structure you need to fit in.
+1.Do not change anything from the prisma schema. This is your structure you need to fit in.
 
 2.You can use any tool you need, we are not going to block you from solving the problem for specific technologies.
 
