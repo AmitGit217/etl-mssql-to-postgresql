@@ -2,18 +2,22 @@
 
 ## Objective
 
-You have in this repository two main components
+Your main mission is to convert MSSQL database to PostgreSQL while transforming the data such that
+it can fit in perfectly into the new Prisma schemas.
 
-1. MSSQL database file with pre-configured relationships, does relationships are not configured well mssql-db.bacpac
-2. Nest.js server with prisma schemes you can find the structure in prisma/prisma.schema
+You have your source database in the root folder in a file called `mssql-db.bacpac`
+You will need to configure you target database in the .env file as the following:
 
-The server is already built with schemas, relations etc.
+    DATABASE_URL="postgresql://postgres:<password>@localhost:5432/test-etl?schema=public"
 
-Your mission is to take the data as is from the MSSQL and create ETL pipeline that will
-repair the weak relationships from the MSSQL and than load the tables into the postgreSQL database.
+You will have three tables in the old database with some records, and a Prisma schemas in the `prisma/prisma.schema` file
+to understand the relationships between tables.
+
+In the old database (MSSQL) the relationships aren't good and they need massive transformation, how you that this is on you.
 
 Rules:
 
-1.  You can use any tool you want.
-2.  Do not change or modify anything from the prisma schemas or any configuration of the Nest server, just convert the old data to match the new database.
-3.  Make your solution as scalable as you can, imagine you are about to do the process for "n" databases.
+1.Do not change anything from the prisma schema. This is you structure you need to fit in.
+2.You can use any tool you need, we are not going to block you from solving the problem for specific technologies.
+
+**Please make sure your solution is scalable as much as you can**
