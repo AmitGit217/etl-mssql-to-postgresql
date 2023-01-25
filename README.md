@@ -15,7 +15,7 @@ to understand the relationships between tables.
 
 If you better with SQL you can read the migration file located at `prisma/migrations/20230125083732_test/migration.sql`
 
-In the old database (MSSQL) the relationships aren't good and they need massive transformation, how you that this is on you.
+In the old database (MSSQL) the relationships aren't good and they need massive transformation, how you do that is up to you.
 
 Rules:
 
