@@ -21,7 +21,7 @@ Rules:
 
 1.Do not change anything from the prisma schema. This is your structure you need to fit in.
 
-2.You can use any tool you need, we are not going to block you from solving the problem for specific technologies.
+2.You can use any tool you need, we are not going to limit you from solving the problem for specific technologies.
 
 **Please make sure your solution is scalable as much as you can**
 
